@@ -7,25 +7,21 @@ import newsImg from "./img/microscope.png";
 import githubImg from "./img/github.png";
 import mailImg from "./img/mail.png";
 
-// import { useState } from "react";
+import React, { useState } from "react";
 
 // Toast 창
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 import Plan from "./pages/Plan";
-// import Todo from "./pages/Todo";
-// import News from "./pages/News";
+import Todo from "./pages/Todo";
+import News from "./pages/News";
 
 function App() {
   // toast 구현 -> https://kangminhyuk1111.tistory.com/51
   const notify = () => toast("메일이 복사 되었습니다.");
 
-  // const [viewCalendar, setViewCalendar] = useState(true);
-
-  const Todo = () => {
-    <Todo></Todo>
-  };
+  const [currentComponent, setCurrentComponent] = useState("Plan");
 
   return (
     <>
@@ -37,16 +33,25 @@ function App() {
             </a>
           </div>
           <div className="sidebar-main">
-            <button className="plan">
+            <button
+              className="plan"
+              onClick={() => setCurrentComponent("Plan")}
+            >
               <img src={calendarImg} alt="" />
               <p>일정 관리</p>
             </button>
-            <button className="todo">
-            {/* onClick={() => setViewCalendar(true)} */}
+            <button
+              className="todo"
+              onClick={() => setCurrentComponent("Todo")}
+            >
+              {/* onClick={() => setViewCalendar(true)} */}
               <img src={taskImg} className="todo-img" alt="" />
               <p>할 일</p>
             </button>
-            <button className="news">
+            <button
+              className="news"
+              onClick={() => setCurrentComponent("News")}
+            >
               <img src={newsImg} alt="" />
               <p>새로운 뉴스</p>
             </button>
@@ -66,9 +71,9 @@ function App() {
             </p>
           </div>
         </div>
-        <div className="Plan">
+        {/* <div className="Plan">
           .<Plan></Plan>
-        </div>
+        </div> */}
 
         {/* <div className="Todo">
           .
@@ -79,6 +84,12 @@ function App() {
           .
           <News></News>
         </div> */}
+
+        <div className="content">
+          <div className="Plan">{currentComponent === "Plan" && <Plan />}</div>
+          <div className="Todo">{currentComponent === "Todo" && <Todo />}</div>
+          <div className="News">{currentComponent === "News" && <News />}</div>
+        </div>
       </div>
     </>
   );
