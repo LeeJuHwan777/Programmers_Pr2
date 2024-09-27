@@ -7,7 +7,7 @@ import newsImg from "./img/microscope.png";
 import githubImg from "./img/github.png";
 import mailImg from "./img/mail.png";
 
-import React, { useState } from "react";
+import { useState } from "react";
 
 // Toast 창
 import { ToastContainer, toast } from "react-toastify";
