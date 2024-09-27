@@ -1,6 +1,13 @@
 @font-face {
-    font-family: 'SpoqaHanSansNeo-Regular';
+    font-family: 'SpoqaHanSansNeo';
     src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SpoqaHanSansNeo-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SpoqaHanSansNeo';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SpoqaHanSansNeo-Bold.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -31,7 +38,9 @@
     height: 24px;
 }
 
-.plan, .todo, .news{
+.plan,
+.todo,
+.news {
     background-color: #F9FBFC;
     border: none;
     font-size: 16px;
@@ -42,19 +51,23 @@
     margin: 1rem;
 }
 
-.plan:hover, .todo:hover, .news:hover {
-    background-color: rgba(197,180,251, 0.3);
+.plan:hover,
+.todo:hover,
+.news:hover {
+    background-color: rgba(197, 180, 251, 0.3);
     cursor: pointer;
 }
 
-.plan:focus, .todo:focus, .news:focus {
-    background-color: rgba(197,180,251, 0.3);
+.plan:focus,
+.todo:focus,
+.news:focus {
+    background-color: rgba(197, 180, 251, 0.3);
 }
 
 .sidebar-footer {
     width: 95%;
     padding: 1.5rem;
-    border-top: 1px solid rgba(197,180,251, 0.3);
+    border-top: 1px solid rgba(197, 180, 251, 0.3);
     position: relative;
     left: 3%;
     top: 45%;
@@ -81,16 +94,18 @@
     /* justify-content: center; */
 }
 
-.github, .mail {
+.github,
+.mail {
     cursor: pointer;
 }
+
 /* 메인, 사이드바, 일정 끝 */
 
 
 
 /* Todo List */
 .Todo {
-    background-color: rgba(197,180,251, 0.3);
+    background-color: rgba(197, 180, 251, 0.3);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -161,7 +176,8 @@
     margin-right: 0.8rem;
 }
 
-.Todo-component2 input, .Todo-component2 p {
+.Todo-component2 input,
+.Todo-component2 p {
     cursor: pointer;
 }
 
@@ -175,7 +191,9 @@
     padding: 1rem;
 }
 
-.job, .posting, .repository {
+.job,
+.posting,
+.repository {
     margin-top: 1.5rem;
     padding: 0.5rem;
     /* border: 1px solid red; */
@@ -207,7 +225,9 @@
     border-radius: 10px;
 }
 
-.News-component1, .News-component2, .News-component3 {
+.News-component1,
+.News-component2,
+.News-component3 {
     display: flex;
     gap: 3rem;
 }

@@ -1,11 +1,11 @@
 // FullCalendar -> https://velog.io/@youjunho613/FullCalendar-library
 import "./App.css";
-import logoImg from "./img/logo.svg";
-import calendarImg from "./img/calendar.png";
-import taskImg from "./img/task.png";
-import newsImg from "./img/microscope.png";
-import githubImg from "./img/github.png";
-import mailImg from "./img/mail.png";
+import logoImg from "../public/logo.svg";
+import calendarImg from "../public/calendar.png";
+import taskImg from "../public/task.png";
+import newsImg from "../public/microscope.png";
+import githubImg from "../public/github.png";
+import mailImg from "../public/mail.png";
 
 import { useState } from "react";
 
