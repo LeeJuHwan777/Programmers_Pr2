@@ -12,7 +12,7 @@ import { useState } from "react";
 // Toast 창
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-
+// 페이지
 import Plan from "./pages/Plan";
 import Todo from "./pages/Todo";
 import News from "./pages/News";
