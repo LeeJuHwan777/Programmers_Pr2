@@ -18,6 +18,8 @@ const Calendar = () => {
     */
   ];
 
+  // 일정추가
+
   return (
     <FullCalendar
       // height={} // 높이 지정
