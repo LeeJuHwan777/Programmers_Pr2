@@ -19,6 +19,7 @@ const Calendar = () => {
   ];
 
   // 일정추가
+  // 일정수정
 
   return (
     <FullCalendar
