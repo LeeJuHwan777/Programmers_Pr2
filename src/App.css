@@ -108,6 +108,10 @@
     cursor: pointer;
 }
 
+.fc {
+    width: 100%;
+}
+
 /* 메인, 사이드바, 일정 끝 */
 
 
@@ -128,8 +132,7 @@
     align-items: center;
     border-radius: 50px;
     border: 1px solid var(--main);
-    width: 45%;
-    height: 100%;
+    width: 100%;
 }
 
 .TodoList-box2 {
@@ -139,8 +142,8 @@
     background-color: var(--sidebar);
     border: 1px solid var(--main);
     border-radius: 50px;
-    width: 90%;
-    height: 90%;
+    width: 50%;
+    height: 70%;
 }
 
 .Todo-main {
