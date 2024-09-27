@@ -12,5 +12,6 @@
 <img src="https://img.shields.io/badge/Visual Studio Code-007ACC?style=flat-square&logo=Visual Studio Code&logoColor=white"/> <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=GitHub&logoColor=white"/>
 
 ## 진행상황
+0. 전체 컴포넌트 분리 중
 1. 전체적인 디자인 구현 중
 2. 버튼 컴포넌트 렌더링 작업 중
