@@ -2,7 +2,8 @@ import "./App.css";
 import Sidebar from "./components/layout/Sidebar/index";
 // import { useState } from "react";
 
-import Plan from "./pages/Plan";
+import Plan from "./components/layout/Plan/index";
+// import Plan from "./pages/Plan";
 // import Todo from "./pages/Todo";
 // import News from "./pages/News";
 
