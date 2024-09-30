@@ -14,4 +14,5 @@ const PostingProfileDateWrapper = styled.div`
   display: flex;
   align-items: center;
   gap: 15px;
+  padding: 6px;
 `;

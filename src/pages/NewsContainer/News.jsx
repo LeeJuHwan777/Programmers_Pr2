@@ -1,6 +1,6 @@
 import styled from "@emotion/styled";
-import PostingProfileDate from "../../components/features/Posting/ProfileDate";
 import "./News.css";
+import PostingCard from "../../components/features/Posting/PostingCard";
 
 export default function News() {
   return (
@@ -23,26 +23,10 @@ export default function News() {
       </div>
 
       <div className="posting">
-        <p>MZ세대를 홀린 인기 포스팅</p>
+        <span>MZ세대를 홀린 인기 포스팅</span>
         <NewsComponent>
           <div className="posting-card">
-            <PostingProfileDate
-              nameStr={"이주환"}
-              imgPath={"/News/Blog/postingProfile.png"}
-              dateStr={"Sep 13, 2024"}
-            ></PostingProfileDate>
-          </div>
-
-          <div className="posting-card">
-            <p>내용</p>
-          </div>
-
-          <div className="posting-card">
-            <p>내용</p>
-          </div>
-
-          <div className="posting-card">
-            <p>내용</p>
+            <PostingCard />
           </div>
         </NewsComponent>
       </div>
@@ -73,6 +57,7 @@ const NewsWrapper = styled.div`
 `;
 
 const NewsComponent = styled.div`
+  width: 100%;
   display: flex;
   gap: 3rem;
 `;

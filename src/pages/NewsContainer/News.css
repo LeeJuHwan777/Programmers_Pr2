@@ -15,10 +15,11 @@
 }
 
 .posting-card {
+    padding: 12px;
     margin-top: 1rem;
+    max-width: 300px;
     display: flex;
-    width: 25%;
-    border: 1px solid var(--test);
+    border: 1px solid var(--postingCard);
     border-radius: 10px;
 }
 
