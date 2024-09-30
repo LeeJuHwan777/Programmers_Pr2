@@ -1,4 +1,4 @@
-import Plan from "../../../pages/Plan";
+import Plan from "../../../pages/PlanContainer/Plan";
 export default function PlanLayout () {
   return (
     <Plan></Plan>

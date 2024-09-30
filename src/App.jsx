@@ -9,7 +9,7 @@ function App() {
   const [currentComponent, setCurrentComponent] = useState("Plan");
 
   const renderComponent = () => {
-    switch(currentComponent) {
+    switch (currentComponent) {
       case "Plan":
         return <Plan />;
       case "Todo":
@@ -17,12 +17,12 @@ function App() {
       case "News":
         return <News />;
     }
-  }
+  };
 
   return (
     <>
       <div className="mainHomepage">
-        <Sidebar setCurrentComponent={setCurrentComponent}/>
+        <Sidebar setCurrentComponent={setCurrentComponent} />
         {renderComponent()}
       </div>
     </>

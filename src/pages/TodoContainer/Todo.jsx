@@ -1,3 +1,4 @@
+import "./Todo.css";
 export default function Todo () {
   return (
     <div className="TodoList-box1">

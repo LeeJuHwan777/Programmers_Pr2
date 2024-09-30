@@ -2,7 +2,7 @@ import dayGridPlugin from "@fullcalendar/daygrid";
 import interactionPlugin from "@fullcalendar/interaction";
 import FullCalendar from "@fullcalendar/react";
 import timeGridPlugin from "@fullcalendar/timegrid";
-import "./Calendar.css";
+import "../PlanContainer/Calendar.css";
 
 const Calendar = () => {
   const plugin = [

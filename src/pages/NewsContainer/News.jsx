@@ -1,9 +1,13 @@
+import styled from "@emotion/styled";
+import PostingProfileDate from "../../components/features/Posting/ProfileDate";
+import "./News.css";
+
 export default function News() {
   return (
-    <div className="News">
+    <NewsWrapper>
       <div className="job">
         <p>어머, 이건 꼭 봐야돼! 채용 정보</p>
-        <div className="News-component1">
+        <NewsComponent>
           <div className="job-card">
             <p>내용</p>
           </div>
@@ -15,14 +19,18 @@ export default function News() {
           <div className="job-card">
             <p>내용</p>
           </div>
-        </div>
+        </NewsComponent>
       </div>
 
       <div className="posting">
         <p>MZ세대를 홀린 인기 포스팅</p>
-        <div className="News-component2">
+        <NewsComponent>
           <div className="posting-card">
-            <p>내용</p>
+            <PostingProfileDate
+              nameStr={"이주환"}
+              imgPath={"/News/Blog/postingProfile.png"}
+              dateStr={"Sep 13, 2024"}
+            ></PostingProfileDate>
           </div>
 
           <div className="posting-card">
@@ -36,12 +44,12 @@ export default function News() {
           <div className="posting-card">
             <p>내용</p>
           </div>
-        </div>
+        </NewsComponent>
       </div>
 
       <div className="repository">
-        <p>MZ세대를 홀린 인기 포스팅</p>
-        <div className="News-component3">
+        <p>매력적인 리포지토리</p>
+        <NewsComponent>
           <div className="repository-card">
             <p>내용</p>
           </div>
@@ -54,8 +62,17 @@ export default function News() {
           <div className="repository-card">
             <p>내용</p>
           </div>
-        </div>
+        </NewsComponent>
       </div>
-    </div>
+    </NewsWrapper>
   );
 }
+const NewsWrapper = styled.div`
+  width: 95%;
+  padding: 1rem;
+`;
+
+const NewsComponent = styled.div`
+  display: flex;
+  gap: 3rem;
+`;

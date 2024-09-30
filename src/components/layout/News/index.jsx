@@ -1,6 +1,4 @@
-import News from "../../../pages/News";
-export default function NewsLayout () {
-  return (
-    <News></News>
-  );
-};
+import News from "../../../pages/NewsContainer/News";
+export default function NewsLayout() {
+  return <News></News>;
+}
