@@ -3,12 +3,12 @@ import Button from "../../common/button/index";
 import Footer from "../Footer/index";
 import "./sidebar.css";
 
-export default function Sidebar() {
+export default function Sidebar({ setCurrentComponent }) {
   return (
     <div className="sidebar">
-        <Logo></Logo>
-        <Button></Button>
-        <Footer></Footer>
+        <Logo />
+        <Button setCurrentComponent={setCurrentComponent} />
+        <Footer />
     </div>
   );
 }

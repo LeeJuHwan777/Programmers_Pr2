@@ -49,7 +49,7 @@
     border: 1px solid var(--main);
     border-radius: 50px;
     width: 50%;
-    height: 70%;
+    height: 80%;
 }
 
 .Todo-main {
@@ -98,7 +98,6 @@
 .Todo-component2 p {
     cursor: pointer;
 }
-
 /* Todo List 끝 */
 
 

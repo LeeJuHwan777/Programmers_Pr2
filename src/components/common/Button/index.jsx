@@ -1,10 +1,8 @@
 import calendarImg from "../../../../public/calendar.png";
 import taskImg from "../../../../public/task.png";
 import newsImg from "../../../../public/microscope.png";
-import { useState } from "react";
 
-export default function Button() {
-  const [setCurrentComponent] = useState("Plan");
+export default function Button({ setCurrentComponent }) {
 
   return (
     <div className="sidebar-main">
@@ -13,7 +11,6 @@ export default function Button() {
         <p>일정 관리</p>
       </button>
       <button className="todo" onClick={() => setCurrentComponent("Todo")}>
-        {/* onClick={() => setViewCalendar(true)} */}
         <img src={taskImg} className="todo-img" alt="" />
         <p>할 일</p>
       </button>
