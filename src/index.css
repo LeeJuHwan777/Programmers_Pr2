@@ -1,3 +1,27 @@
+:root {
+  --sidebar: #F9FBFC;
+  --sidebarAction: rgba(197, 180, 251, 0.3);
+  --main: #FFFFFF;
+  --todoInput: #B1B1B1;
+  --todoPlusBtn: #907AD6;
+  --test: blue;
+  --fc--gray1: #97989F;
+}
+
+@font-face {
+  font-family: 'SpoqaHanSansNeo';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SpoqaHanSansNeo-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SpoqaHanSansNeo';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SpoqaHanSansNeo-Bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 * {
   margin: 0;
   padding: 0;

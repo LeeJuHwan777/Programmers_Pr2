@@ -1,0 +1,32 @@
+.job,
+.posting,
+.repository {
+    margin-top: 1.5rem;
+    padding: 0.5rem;
+    /* border: 1px solid red; */
+}
+
+.job-card {
+    margin-top: 1rem;
+    width: 33%;
+    padding: 5rem;
+    border: 1px solid var(--test);
+    border-radius: 10px;
+}
+
+.posting-card {
+    margin-top: 1rem;
+    display: flex;
+    width: 25%;
+    border: 1px solid var(--test);
+    border-radius: 10px;
+}
+
+.repository-card {
+    margin-top: 1rem;
+    display: flex;
+    width: 25%;
+    padding: 3.5rem;
+    border: 1px solid var(--test);
+    border-radius: 10px;
+}
