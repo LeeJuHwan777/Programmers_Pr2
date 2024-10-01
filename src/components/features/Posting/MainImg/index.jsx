@@ -1,5 +1,11 @@
-export default function PostingMainImg () {
+import styled from "@emotion/styled";
+
+export default function PostingMainImg({ mainImgPath }) {
   return (
-    <img src="" alt="PostingMainImg" />
+      <MainImgWrapper src={mainImgPath} alt="PostingMainImg" />
   );
-};
+}
+const MainImgWrapper = styled.img`
+  max-width: 270px;
+  margin-bottom: 12px;
+`;

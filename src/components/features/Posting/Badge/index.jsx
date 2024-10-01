@@ -1,46 +1,78 @@
 import styled from "@emotion/styled";
 
+// export default function PostingBadge({ badgeStr }) {
+//   const badgeCheck = () => {
+//     if (badgeStr === "HTML") {
+//       return <PostingBadgeHTML>{badgeStr}</PostingBadgeHTML>
+//     } else if (badgeStr === "CSS") {
+//       return <PostingBadgeCSS>{badgeStr}</PostingBadgeCSS>
+//     } else if (badgeStr === "JavaScript") {
+//       return <PostingBadgeJS>{badgeStr}</PostingBadgeJS>
+//     } else if (badgeStr === "React") {
+//       return <PostingBadgeReact>{badgeStr}</PostingBadgeReact>
+//     }
+//   }
+//   return badgeCheck();
+// }
+
 export default function PostingBadge({ badgeStr }) {
-  return <PostingBadgeHTML>{badgeStr}</PostingBadgeHTML>;
+  // 각 badgeStr 값에 대한 컴포넌트 매핑
+  const badgeComponents = {
+    HTML: PostingBadgeHTML,
+    CSS: PostingBadgeCSS,
+    JavaScript: PostingBadgeJS,
+    React: PostingBadgeReact,
+  };
+
+  // badgeStr에 해당하는 컴포넌트를 선택하고 렌더링
+  const BadgeComponent = badgeComponents[badgeStr] || null;
+  return BadgeComponent ? <BadgeComponent>{badgeStr}</BadgeComponent> : null;
 }
+
 const PostingBadgeHTML = styled.div`
   border-radius: 5px;
-  font-size: 14px;
+  font-size: 10px;
   padding: 6px;
   display: flex;
   justify-content: center;
   background-color: var(--badgeHTML);
   border: 1px solid var(--main);
-  width: 25%;
+  color: var(--main);
   margin-bottom: 12px;
 `;
 
-// const PostingBadgeCSS = styled.div`
-//   font-size: 10px;
-//   padding: 6px;
-//   display: flex;
-//   justify-content: center;
-//   background-color: yellow;
-//   border: 1px solid white;
-//   width: 25%;
-// `;
+const PostingBadgeCSS = styled.div`
+  border-radius: 5px;
+  font-size: 10px;
+  padding: 6px;
+  display: flex;
+  justify-content: center;
+  background-color: var(--badgeCSS);
+  border: 1px solid var(--main);
+  color: var(--main);
+  margin-bottom: 12px;
+`;
 
-// const PostingBadgeJS = styled.div`
-//   font-size: 10px;
-//   padding: 6px;
-//   display: flex;
-//   justify-content: center;
-//   background-color: yellow;
-//   border: 1px solid white;
-//   width: 25%;
-// `;
+const PostingBadgeJS = styled.div`
+  border-radius: 5px;
+  font-size: 10px;
+  padding: 6px;
+  display: flex;
+  justify-content: center;
+  background-color: var(--badgeJS);
+  border: 1px solid var(--main);
+  color: var(--main);
+  margin-bottom: 12px;
+`;
 
-// const PostingBadgeReact = styled.div`
-//   font-size: 10px;
-//   padding: 6px;
-//   display: flex;
-//   justify-content: center;
-//   background-color: yellow;
-//   border: 1px solid white;
-//   width: 25%;
-// `;
+const PostingBadgeReact = styled.div`
+  border-radius: 5px;
+  font-size: 10px;
+  padding: 6px;
+  display: flex;
+  justify-content: center;
+  background-color: var(--badgeReact);
+  border: 1px solid var(--main);
+  color: var(--main);
+  margin-bottom: 12px;
+`;

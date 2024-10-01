@@ -1,11 +1,13 @@
-import PostingBadge from "../Badge";
-import PostingProfileDate from "../ProfileDate";
+import PostingMainImg from "../MainImg";
 import PostingTitle from "../Title";
+import PostingProfileDate from "../ProfileDate";
+import BadgeItems from "../BadeItems";
 
 export default function PostingCard() {
   return (
     <div>
-      <PostingBadge badgeStr={"HTML"} />
+      <PostingMainImg mainImgPath={"/News/Blog/img.png"}/>
+      <BadgeItems />
       <PostingTitle
         titleStr={
           "Launching Oxy-UI: A Powerful and Modern UI Library for Your WebProjects"
