@@ -76,7 +76,7 @@ const NewsComponent = styled.div`
 
 const PostingCardWrapper = styled.div`
   padding: 12px;
-  margin-top: 1rem;
+  margin-top: 16px;
   max-width: 350px;
   display: flex;
   border: 1px solid var(--postingCard);
