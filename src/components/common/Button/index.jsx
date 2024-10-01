@@ -1,6 +1,6 @@
-import calendarImg from "../../../../public/calendar.png";
-import taskImg from "../../../../public/task.png";
-import newsImg from "../../../../public/microscope.png";
+import calendarImg from "../../../../public/Sidebar/calendar.png";
+import taskImg from "../../../../public/Sidebar/task.png";
+import newsImg from "../../../../public/Sidebar/microscope.png";
 
 export default function Button({ setCurrentComponent }) {
 

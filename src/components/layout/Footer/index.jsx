@@ -2,8 +2,8 @@
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
-import githubImg from "../../../../public/github.png";
-import mailImg from "../../../../public/mail.png";
+import githubImg from "../../../../public/Sidebar/github.png";
+import mailImg from "../../../../public/Sidebar/mail.png";
 
 export default function Footer() {
 
