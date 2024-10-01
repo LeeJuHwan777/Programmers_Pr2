@@ -28,6 +28,18 @@ export default function News() {
           <PostingCardWrapper>
             <PostingCard />
           </PostingCardWrapper>
+
+          <PostingCardWrapper>
+            <PostingCard />
+          </PostingCardWrapper>
+
+          <PostingCardWrapper>
+            <PostingCard />
+          </PostingCardWrapper>
+
+          <PostingCardWrapper>
+            <PostingCard />
+          </PostingCardWrapper>
         </NewsComponent>
       </div>
 
@@ -59,13 +71,13 @@ const NewsWrapper = styled.div`
 const NewsComponent = styled.div`
   width: 100%;
   display: flex;
-  gap: 3rem;
+  gap: 51px;
 `;
 
 const PostingCardWrapper = styled.div`
   padding: 12px;
   margin-top: 1rem;
-  max-width: 300px;
+  max-width: 350px;
   display: flex;
   border: 1px solid var(--postingCard);
   border-radius: 10px;
