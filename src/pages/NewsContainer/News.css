@@ -14,15 +14,6 @@
     border-radius: 10px;
 }
 
-.posting-card {
-    padding: 12px;
-    margin-top: 1rem;
-    max-width: 300px;
-    display: flex;
-    border: 1px solid var(--postingCard);
-    border-radius: 10px;
-}
-
 .repository-card {
     margin-top: 1rem;
     display: flex;

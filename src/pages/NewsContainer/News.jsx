@@ -25,9 +25,9 @@ export default function News() {
       <div className="posting">
         <span>MZ세대를 홀린 인기 포스팅</span>
         <NewsComponent>
-          <div className="posting-card">
+          <PostingCardWrapper>
             <PostingCard />
-          </div>
+          </PostingCardWrapper>
         </NewsComponent>
       </div>
 
@@ -60,4 +60,13 @@ const NewsComponent = styled.div`
   width: 100%;
   display: flex;
   gap: 3rem;
+`;
+
+const PostingCardWrapper = styled.div`
+  padding: 12px;
+  margin-top: 1rem;
+  max-width: 300px;
+  display: flex;
+  border: 1px solid var(--postingCard);
+  border-radius: 10px;
 `;
