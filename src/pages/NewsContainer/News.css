@@ -9,7 +9,7 @@
 .job-card {
     margin-top: 1rem;
     width: 33%;
-    padding: 5rem;
+    padding: 4rem;
     border: 1px solid var(--test);
     border-radius: 10px;
 }
@@ -18,7 +18,7 @@
     margin-top: 1rem;
     display: flex;
     width: 25%;
-    padding: 3.5rem;
+    padding: 2rem;
     border: 1px solid var(--test);
     border-radius: 10px;
 }

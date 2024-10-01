@@ -6,6 +6,6 @@ export default function PostingMainImg({ mainImgPath }) {
   );
 }
 const MainImgWrapper = styled.img`
-  max-width: 270px;
+  width: 100%;
   margin-bottom: 12px;
 `;
