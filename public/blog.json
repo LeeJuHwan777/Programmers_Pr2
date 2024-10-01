@@ -1,0 +1,41 @@
+{
+    "type_of": "article",
+    "id": 1991850,
+    "title": "Frontend Dev + Data Structures & Algorithms: How DSA Can Power Your React App ⚡",
+    "description": "Frontend focused interviews often don’t care about DSA at all.  And for those of us that remember...",
+    "readable_publish_date": "Sep 8",
+    "slug": "frontend-dev-data-structures-algorithms-how-dsa-can-power-your-react-app-491a",
+    "path": "/jayantbh/frontend-dev-data-structures-algorithms-how-dsa-can-power-your-react-app-491a",
+    "url": "https://dev.to/jayantbh/frontend-dev-data-structures-algorithms-how-dsa-can-power-your-react-app-491a",
+    "comments_count": 31,
+    "public_reactions_count": 437,
+    "collection_id": null,
+    "published_timestamp": "2024-09-08T09:01:48Z",
+    "positive_reactions_count": 437,
+    "cover_image": "https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fivfpbxw46rklqj40wtqy.png",
+    "social_image": "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fivfpbxw46rklqj40wtqy.png",
+    "canonical_url": "https://dev.to/jayantbh/frontend-dev-data-structures-algorithms-how-dsa-can-power-your-react-app-491a",
+    "created_at": "2024-09-08T08:56:56Z",
+    "edited_at": "2024-09-08T10:41:15Z",
+    "crossposted_at": null,
+    "published_at": "2024-09-08T09:01:48Z",
+    "last_comment_at": "2024-09-12T11:01:50Z",
+    "reading_time_minutes": 5,
+    "tag_list": [
+        "webdev",
+        "javascript",
+        "beginners",
+        "react"
+    ],
+    "tags": "webdev, javascript, beginners, react",
+    "user": {
+        "name": "Jayant Bhawal",
+        "username": "jayantbh",
+        "twitter_username": null,
+        "github_username": "jayantbh",
+        "user_id": 254865,
+        "website_url": "https://mhq.link/oss",
+        "profile_image": "https://media.dev.to/cdn-cgi/image/width=640,height=640,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F254865%2F9eaccf4b-b8b4-4761-9040-bc986853a276.png",
+        "profile_image_90": "https://media.dev.to/cdn-cgi/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F254865%2F9eaccf4b-b8b4-4761-9040-bc986853a276.png"
+    }
+}
