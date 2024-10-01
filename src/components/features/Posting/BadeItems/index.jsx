@@ -1,13 +1,12 @@
 import styled from "@emotion/styled";
 import PostingBadge from "../Badge";
 
-export default function BadgeItems () {
+export default function BadgeItems({ badges }) {
   return (
     <BadgeItemsWrapper>
-      <PostingBadge badgeStr={"JavaScript"}/>
-      <PostingBadge badgeStr={"React"}/>
-      <PostingBadge badgeStr={"HTML"}/>
-      <PostingBadge badgeStr={"CSS"}/>
+      {badges.map((badge, index) => (
+        <PostingBadge key={index} badgeStr={badge} />
+      ))}
     </BadgeItemsWrapper>
   );
 };
