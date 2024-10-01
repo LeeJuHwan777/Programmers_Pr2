@@ -2,21 +2,20 @@ import PostingMainImg from "../MainImg";
 import PostingTitle from "../Title";
 import PostingProfileDate from "../ProfileDate";
 import BadgeItems from "../BadeItems";
+import { PostingMainImgPath, PostingTitleStr, PostingNameStr, PostingProfileImgPath, PostingDateStr } from "../../../../constants/News/Posting";
 
 export default function PostingCard() {
   return (
     <div>
-      <PostingMainImg mainImgPath={"/News/Blog/img.png"}/>
+      <PostingMainImg mainImgPath={PostingMainImgPath}/>
       <BadgeItems />
       <PostingTitle
-        titleStr={
-          "Launching Oxy-UI: A Powerful and Modern UI Library for Your WebProjects"
-        }
+        titleStr={PostingTitleStr}
       />
       <PostingProfileDate
-        nameStr={"이주환"}
-        imgPath={"/News/Blog/postingProfile.png"}
-        dateStr={"Sep 13, 2024"}
+        nameStr={PostingNameStr}
+        imgPath={PostingProfileImgPath}
+        dateStr={PostingDateStr}
       />
     </div>
   );
