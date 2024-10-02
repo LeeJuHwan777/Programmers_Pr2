@@ -4,7 +4,7 @@ import PostingProfileDate from "../ProfileDate";
 import BadgeItems from "../BadeItems";
 import { PostingMainImgPath, PostingTitleStr, PostingNameStr, PostingProfileImgPath, PostingDateStr } from "../../../../constants/News/Posting";
 
-const badgesData = ["JavaScript", "React", "HTML", "CSS"];
+const badgesData = ["Default", "JavaScript", "React", "HTML", "CSS"];
 export default function PostingCard() {
   return (
     <div>
