@@ -16,6 +16,7 @@ import styled from "@emotion/styled";
 export default function PostingBadge({ badgeStr }) {
   // 각 badgeStr 값에 대한 컴포넌트 매핑
   const badgeClass = {
+    Default: "Default",
     HTML: "HTML",
     CSS: "CSS",
     JavaScript: "JS",
@@ -37,6 +38,9 @@ const BadgeWrapper = styled.div`
   color: var(--main);
   margin-bottom: 12px;
 
+  &.Default {
+    background-color: var(--badgeDefault);
+  }
   &.HTML {
     background-color: var(--badgeHTML);
   }
@@ -50,8 +54,6 @@ const BadgeWrapper = styled.div`
     background-color: var(--badgeReact);
   }
 `;
-
-
 
 // 첫번째 방법
 // const PostingBadgeHTML = styled.div`
