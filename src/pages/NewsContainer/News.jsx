@@ -1,6 +1,8 @@
 import styled from "@emotion/styled";
 import "./News.css";
-import PostingCard from "../../components/features/Posting/PostingCard";
+// import PostingSwiper from "../../components/common/Swiper/Posting";
+// import PostingCard from "../../components/features/Posting/PostingCard";
+import PostingSwiper from "../../components/common/Swiper/Posting";
 
 export default function News() {
   return (
@@ -26,20 +28,16 @@ export default function News() {
         <span>MZ세대를 홀린 인기 포스팅</span>
         <NewsComponent>
           <PostingCardWrapper>
+            <PostingSwiper />
+          </PostingCardWrapper>
+
+          {/* <PostingCardWrapper>
             <PostingCard />
           </PostingCardWrapper>
 
           <PostingCardWrapper>
             <PostingCard />
-          </PostingCardWrapper>
-
-          <PostingCardWrapper>
-            <PostingCard />
-          </PostingCardWrapper>
-
-          <PostingCardWrapper>
-            <PostingCard />
-          </PostingCardWrapper>
+          </PostingCardWrapper> */}
         </NewsComponent>
       </div>
 
@@ -77,8 +75,8 @@ const NewsComponent = styled.div`
 const PostingCardWrapper = styled.div`
   padding: 12px;
   margin-top: 16px;
-  max-width: 350px;
-  display: flex;
+  // max-width: 320px;
+  width: 100%;
   border: 1px solid var(--postingCard);
   border-radius: 10px;
 `;
