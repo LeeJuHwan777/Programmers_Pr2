@@ -5,7 +5,7 @@ import PostingCard from "../../components/features/Posting/PostingCard";
 export default function News() {
   return (
     <NewsWrapper>
-      <div className="job">
+      {/* <div className="job">
         <p>어머, 이건 꼭 봐야돼! 채용 정보</p>
         <NewsComponent>
           <div className="job-card">
@@ -20,7 +20,7 @@ export default function News() {
             <p>내용</p>
           </div>
         </NewsComponent>
-      </div>
+      </div> */}
 
       <div className="posting">
         <span>MZ세대를 홀린 인기 포스팅</span>
@@ -43,7 +43,7 @@ export default function News() {
         </NewsComponent>
       </div>
 
-      <div className="repository">
+      {/* <div className="repository">
         <p>매력적인 리포지토리</p>
         <NewsComponent>
           <div className="repository-card">
@@ -59,7 +59,7 @@ export default function News() {
             <p>내용</p>
           </div>
         </NewsComponent>
-      </div>
+      </div> */}
     </NewsWrapper>
   );
 }
