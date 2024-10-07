@@ -1,5 +1,5 @@
+import Button from "../../common/Button";
 import Logo from "../../common/Logo/index";
-import Button from "../../common/button/index";
 import Footer from "../Footer/index";
 import "./sidebar.css";
 
