@@ -25,7 +25,7 @@ export default function News() {
       </div> */}
 
       <div className="posting">
-        <span>Z세대를 홀린 인기 포스팅</span>
+        <span>MZ세대를 홀린 인기 포스팅</span>
         <NewsComponent>
           <PostingCardWrapper>
             <PostingSwiper />

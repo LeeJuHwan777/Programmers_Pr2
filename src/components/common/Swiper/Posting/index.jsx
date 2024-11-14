@@ -25,13 +25,6 @@ export default function PostingSwiper() {
   >
     <SwiperSlide><PostingCard /></SwiperSlide>
     <SwiperSlide><PostingCard /></SwiperSlide>
-    <SwiperSlide><PostingCard /></SwiperSlide>
-    <SwiperSlide><PostingCard /></SwiperSlide>
-    <SwiperSlide><PostingCard /></SwiperSlide>
-    <SwiperSlide><PostingCard /></SwiperSlide>
-    <SwiperSlide><PostingCard /></SwiperSlide>
-    <SwiperSlide><PostingCard /></SwiperSlide>
-    <SwiperSlide><PostingCard /></SwiperSlide>
     <NewsNavigation />
   </Swiper>
   );
